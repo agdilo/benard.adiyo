@@ -2,85 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Bernard Christiano Adiyo | Enterprise Infrastructure Architect</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Benard-Christiano-Adiyo</title>
 </head>
+
 <body>
-    <!--NAVIGATION BAR-->
-    <header id="header">
-        <!--LOGO-->
-       <a class="logo" href="#header">
-        <h1>Bernard Christiano Adiyo</h1>
-        <span>Systems Designer</span>
 
-       </a>
-       <!--Navigation Links-->
-
-        <nav class="top_nav">
-            <ul class="nav_links">
-                <li>
-                    <a class="nav_link" href="#">About</a>
-                </li>
-                <li>
-                    <a class="nav_link" href="#">Resume</a>
-                </li>
-                <li>
-                    <a class="nav_link" href="#">Projects</a>
-                </li>
-                <li>
-                    <a class="nav_link" href="#">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <!--HAMBURGER MENU FOR SMALLER SCREENS-->
-
-
-    </header>
-    <!--HERO SECTION-->
-    <section id="hero">
-        <div class="hero_wrapper">
-            <div class="profile_card">
-                <img src="./assets/avatar.jpg" alt="img_avatar">
-                <h2>Benard Christiano Adiyo</h2>
-                <p>Project Manager</p>
-
-                <!--SOCIAL ICONS-->
-                <div class="social_icons">
-                    <img src="./assets/instagram-line.png" alt="">
-
-                </div>
-                
-            </div>
-            <div class="hero_text">
-                    <h1>Welcome</h1>
-                </div>
-
+<!-- ================= NAVIGATION ================= -->
+<header class="header">
+    <div class="container nav-container">
+        <div class="logo">
+            <h1>Bernard Adiyo</h1>
+            <span>Enterprise Infrastructure Architect</span>
         </div>
 
-    </section>
-    <!--ABOUT SECTION-->
-    <section id="about">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Experience</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+        </nav>
 
-    </section>
-    <!--FEATURED PROJECTS-->
-    <section id="featured">
+        <!-- Mobile Hamburger -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
 
-    </section>
-    <!--TESTIMONIALS-->
-    <section id="testimonials">
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <div class="container hero-grid">
 
-    </section>
-    <!--CONTACT SECTION-->
-    <section id="contact">
+        <div class="hero-text glass">
+            <h2>Designing Secure & Scalable Enterprise Infrastructure</h2>
+            <p>
+                Healthcare IT Architect specializing in network segmentation,
+                firewall policy design, virtualization infrastructure,
+                and secure SD-WAN deployments.
+            </p>
+            <a href="#projects" class="btn-primary">View Portfolio</a>
+        </div>
 
-    </section>
-    <!--FOOTER SECTION-->
-    <footer id="footer">
+        <div class="hero-profile glass">
+            <img src="./assets/avatar.jpg" alt="Bernard Adiyo">
+            <h3>Bernard Christiano Adiyo</h3>
+            <p>Enterprise Systems & Network Architect</p>
+        </div>
 
-    </footer>
+    </div>
+</section>
 
-    <!--SCRIPTS-->
-    <script src="./js/index.js"></script>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">Professional Summary</h2>
+
+        <div class="glass section-card">
+            <p>
+                Systems and Network Infrastructure Engineer with experience designing
+                secure, scalable healthcare IT environments. Skilled in Cisco enterprise
+                switching, Fortinet firewall architecture, virtualization (VMware),
+                and multi-site SD-WAN connectivity.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= EXPERTISE ================= -->
+<section id="expertise" class="section">
+    <div class="container">
+        <h2 class="section-title">Core Expertise</h2>
+
+        <div class="grid-3">
+            <div class="glass card">
+                <h3>Network Engineering</h3>
+                <p>Cisco Catalyst • VLAN Segmentation • EIGRP • LACP • Fiber Uplinks</p>
+            </div>
+
+            <div class="glass card">
+                <h3>Security Architecture</h3>
+                <p>Fortinet Firewall • SD-WAN • Access Policies • AAA • Risk Mitigation</p>
+            </div>
+
+            <div class="glass card">
+                <h3>Systems & Virtualization</h3>
+                <p>VMware ESXi • Linux Servers • Backup & DR • Infrastructure Optimization</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Highlighted Projects</h2>
+
+        <div class="grid-2">
+            <div class="glass card">
+                <h3>Hospital SD-WAN Deployment</h3>
+                <p>
+                    Architected secure branch-to-core SD-WAN connectivity with traffic
+                    segmentation and high availability across enterprise hospital infrastructure.
+                </p>
+            </div>
+
+            <div class="glass card">
+                <h3>Enterprise VLAN Segmentation</h3>
+                <p>
+                    Designed scalable VLAN architecture using Cisco Catalyst 9300 core
+                    with structured routing and firewall integration.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="resume" class="section">
+    <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+
+        <div class="glass section-card">
+            <h3>Systems & Network Administrator</h3>
+            <span>Healthcare Infrastructure</span>
+            <p>
+                Responsible for enterprise switching, firewall management,
+                virtualization infrastructure, backup solutions,
+                and secure inter-branch connectivity.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="glass section-card center">
+            <p>Email: your.email@domain.com</p>
+            <p>Location: Kenya</p>
+            <a href="#" class="btn-primary">Download CV</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Bernard Christiano Adiyo | Enterprise Infrastructure Architect</p>
+    </div>
+</footer>
+
+<script src="./js/index.js"></script>
 </body>
 </html>
